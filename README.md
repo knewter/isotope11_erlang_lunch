@@ -14,3 +14,17 @@ To run the tests:
 ```bash
 rebar eunit
 ```
+
+## Basic Erlang
+
+- hello_world.erl
+- hello_add.erl
+
+## Some neat dev tools erlang provides
+
+- process monitor: `pmon:start().`
+- debugger: `debugger:start().`
+
+## OTP
+
+- We'll look at a gen_server based chatserver we built.
