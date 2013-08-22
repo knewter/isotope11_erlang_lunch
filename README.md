@@ -78,3 +78,34 @@ People = [JoeTuple,MikeTuple].
    {children,[{thomas,21},{claire,17}]}]},
  {person,"Mike","Williams",
   [{shoeSize,41},{likes,[boats,wine]}]}]
+
+
+
+=======
+## Development
+
+To run the tests:
+
+```bash
+rebar eunit
+```
+
+## Basic Erlang
+
+- hello_world.erl
+- hello_add.erl
+
+## Some neat dev tools erlang provides
+
+- process monitor: `pmon:start().`
+- debugger: `debugger:start().`
+
+## Pattern Matching
+
+- just...some stuff?
+
+## OTP
+
+- We'll look at a gen_server based chatserver we built.
+- First, let's see it in action - we'll also see interprocess messaging in erlang, which is fun :D
+>>>>>>> f3050a804498f5cc274cdec2eb56cd9d0131da37
