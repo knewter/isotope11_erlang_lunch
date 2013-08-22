@@ -32,3 +32,4 @@ rebar eunit
 ## OTP
 
 - We'll look at a gen_server based chatserver we built.
+- First, let's see it in action - we'll also see interprocess messaging in erlang, which is fun :D
