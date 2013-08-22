@@ -6,3 +6,11 @@
 - mkdir ~/erlang/isotope11_erlang_lunch
 - cd ~/erlang/isotope11_erlang_lunch
 - rebar create-app appid=isotope11_lunch
+
+## Development
+
+To run the tests:
+
+```bash
+rebar eunit
+```
