@@ -25,6 +25,10 @@ rebar eunit
 - process monitor: `pmon:start().`
 - debugger: `debugger:start().`
 
+## Pattern Matching
+
+- just...some stuff?
+
 ## OTP
 
 - We'll look at a gen_server based chatserver we built.
