@@ -1,0 +1,12 @@
+{application, isotope11_lunch,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { isotope11_lunch_app, []}},
+  {env, []}
+ ]}.
